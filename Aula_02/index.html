@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-NEON-HTML</title>
+</head>
+<body>
+    <div>
+        <h2>Formulario NEON-TOTI</h2>
+        <form action="" method="POST">
+            <div>
+                <label for="name">Nome:</label>
+                <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                placeholder="Digite seu nome"
+                required>
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input 
+                type="password" 
+                name="senha" 
+                id="senha" 
+                placeholder="Digite sea senha"
+                required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                placeholder="Digite seu email"
+                required>
+            </div>
+            <div>
+                <label for="numero">Número:</label>
+                <input 
+                type="number" 
+                name="numero" 
+                id="numero" 
+                placeholder="Digite sua idade">
+            </div>
+            <div>
+                <label for="date">Data de aniversário:</label>
+                <input 
+                type="date" 
+                name="date" 
+                id="date" >
+            </div>
+            <div>
+                <label for="nivel">Nível:</label>
+                <input 
+                type="range" min="0" max="10"
+                name="nivel" 
+                id="nivel" >
+            </div>
+            <div>
+                <p><label for="check">Interesses:</label></p>
+                <input type="checkbox" name="autos" value="gusta"> Autos<br>
+                <input type="checkbox" name="deportes" value="gusta"> Deportes<br>
+                <input type="checkbox" name="videojuegos" value="gusta"> Videojuegos<br>
+            </div>
+                   
+            <div>   
+                <label for="op1">Opcion 1:</label>
+                <input 
+                type="radio" 
+                name="opcao"
+                id="op1">
+            </div>                    
+            <div>
+                <label for="op1">Opcion 2:</label>
+                <input 
+                type="radio" 
+                name="opcao"
+                id="op2"> 
+            </div>
+            <div>
+                <label for="op1">Opcion 3:</label>
+                <input 
+                type="radio" 
+                name="opcao"
+                id="op3">
+            </div>
+            <div>
+                <label for="arquivo">Anexar arquivo:</label>
+                <input 
+                type="file" 
+                name="arquivo"
+                id="arquivo">
+            </div>
+            <div>
+                <select name="opcoes" id="">
+                    <option value="op1">HTML</option>    
+                    <option value="op2">CSS</option> 
+                    <option value="op3">JavaScript</option> 
+                </select>
+            </div>
+            <div>
+                    <textarea 
+                    name="texto" 
+                    id="" 
+                    placeholder="Deixe seu comentário" 
+                    cols="30" 
+                    rows="5">
+                </textarea>
+            </div>
+
+            <div> 
+                <button type="button">Botão</button>
+                <button type="submit">Aceitar</button>
+                <button type="reset">Cancelar</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
