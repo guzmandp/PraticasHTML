@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
+
+*{
+
+    font-family: 'Scheherazade New', sans-serif;
+
+}
+
+body{
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 0;
+}
+
+.title__principal{
+    color: #0A1931;
+    margin: 0;
+    padding-left: 5%;
+    font-size: 36px;
+}
+
+.navi__bar{
+    height: 80%;
+    background-color: #185ADB;
+    display: flex;
+    justify-content: space-evenly;
+    color: #EFEFEF;
+    align-items: center;
+    
+}
+
+.btn__navi{
+    align-items: center;
+    border-style: solid;
+    height: 32px;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px; 
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #0A1931;
+    color: #EFEFEF;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+.btn__navi:hover{
+    transition: color 0.5s;
+    background-color: #EFEFEF;
+    color: #0A1931;
+}
+
+.container{
+   
+    background-color: #FFC947;
+}
+.container__history{
+    background-color: #EFEFEF;
+}
+
+.title-history{
+    color: #0A1931;
+    margin: 0;
+    padding-left: 5%;
+    font-size: 36px;
+}
+
+.img__history{
+    position: relative;    
+    left: 60%;
+    margin: 0;
+    padding-left: 5%;
+    display: block;
+    transform: scaleX(-1);
+}
+
+.text__history{
+    font-family: 'Courier New', Courier, monospace;
+    color: #185ADB;
+    font-size: 25px;
+    width: 80%;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+.container__modelo{
+    background-color: #FFC947;
+}
+
+.title__modelo{
+    color: #0A1931;
+    margin: 0;
+    padding-left: 5%;
+    font-size: 36px;
+}
+
+.img__modelo{
+    position: relative;   
+    left: 30%;
+    margin: 0;
+    padding-left: 5%;
+    display: block;
+}
+
+.ul__modelo{
+    font-family: 'Courier New', Courier, monospace;
+    color: #EFEFEF;
+    font-size: 25px;
+    width: 80%;
+    margin: 0;
+    padding-left: 37%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+.container__curiosidade{
+    background-color: #EFEFEF;
+
+}
+
+.title__curiosidade{
+    color: #0A1931;
+    margin: 0;
+    padding-left: 5%;
+    font-size: 36px;
+}
+
+.ol__curiosidade{
+    font-family: 'Courier New', Courier, monospace;
+    color: #185ADB;
+    font-size: 25px;
+    width: 80%;
+    margin: 0;
+    padding-left: 6%;
+   padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img__curiosidade{
+    position: relative;   
+    left: 30%;
+    margin: 0;
+    padding-left: 5%;
+    display: block;
+    transform: scaleX(-1);
+}
+
+.container__video{
+    background-color: #FFC947;
+
+}
+
+.title__video{
+    color: #0A1931;
+    margin: 0;
+    padding-left: 5%;
+    font-size: 36px;
+}
+
+.container__footer{
+    height: 80%;
+    background-color: #185ADB;
+    display: flex;
+    justify-content: space-evenly;
+    color: #EFEFEF;
+    align-items: center;
+}
+
+.video__iframe{
+    position: relative;   
+    left: 20%;
+    margin: 0;
+    padding-left: 5%;
+    display: block;
+
+}
